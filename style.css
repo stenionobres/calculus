@@ -1,4 +1,28 @@
-/**, *:before, *:after {
+*, *:before, *:after {
     box-sizing: border-box;
-}*/
+}
+
+@font-face{
+	font-family: "Bebas Neue"
+	src: url(".fonts/BebasNeueRegular.ttf");
+}
+
+/* Componente Chamada Principal */
+.chamadainicial{
+	color: red;
+	font-size: 2em;
+}
+
+headline{
+	font-weight: 300;
+	font-size: 3em;
+}
+
+.main-content > .chamadainicial, .headline{
+	text-align: center;
+	font-family: "Bebas Neue";
+	font-weight: normal;
+}
+
+
 
