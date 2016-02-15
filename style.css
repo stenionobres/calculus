@@ -7,22 +7,96 @@
 	src: url(".fonts/BebasNeueRegular.ttf");
 }
 
-/* Componente Chamada Principal */
+@font-face{
+	font-family: "Yanone Kaffeesatz"
+	src: url(".fonts/YanoneKaffeesatz-Regular.otf");
+}
+
+body{
+	font-family: "Bebas Neue";
+}
+
+
+/* Componente Main-Content */
+.main-content > .chamadainicial, .headline, .video-acao{
+	font-weight: normal;
+}
+
+.main-content {
+	text-align: center;
+}
+
 .chamadainicial{
 	color: red;
+	font-size: 1.3em;
+}
+
+h1.headline{
+	font-weight: 200;
 	font-size: 2em;
 }
 
-headline{
-	font-weight: 300;
-	font-size: 3em;
+/*O elemento video em telas maiores precisa diminuir o tamanho do width para melhor experiência de uso*/
+.video-acao{
+	width: 100%;
 }
 
-.main-content > .chamadainicial, .headline{
-	text-align: center;
-	font-family: "Bebas Neue";
-	font-weight: normal;
+/*Manipulações necessárias para deixar o player responsivo*/
+.video { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%;
+} 
+
+.video iframe, .video object, .video embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%; 
 }
+
+@media (min-width: 45em) {
+	.video { 
+		position: relative; 
+		padding-bottom: 41.25%; 
+		height: 0; 
+		overflow: hidden; 
+		max-width: 100%;
+	} 
+	
+	.video iframe, .video object, .video embed { 
+		position: absolute; 
+		top: 0; 
+		left: 12.5%; 
+		width: 75%; 
+		height: 100%; 
+	}
+
+}
+
+@media (min-width: 60em) {
+	.video { 
+		position: relative; 
+		padding-bottom: 26.25%; 
+		height: 0; 
+		overflow: hidden; 
+		max-width: 100%;
+	} 
+	
+	.video iframe, .video object, .video embed { 
+		position: absolute; 
+		top: 0; 
+		left: 25%; 
+		width: 50%; 
+		height: 100%; 
+	}
+}
+
+/*Fim do componente Main-Content*/
+
 
 
 
