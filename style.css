@@ -18,7 +18,7 @@ body{
 
 
 /* Componente Main-Content */
-.main-content > .chamadainicial, .headline, .video-acao{
+.main-content > .chamadainicial, .headline{
 	font-weight: normal;
 }
 
@@ -34,11 +34,6 @@ body{
 h1.headline{
 	font-weight: 200;
 	font-size: 2em;
-}
-
-/*O elemento video em telas maiores precisa diminuir o tamanho do width para melhor experiência de uso*/
-.video-acao{
-	width: 100%;
 }
 
 /*Manipulações necessárias para deixar o player responsivo*/
@@ -74,7 +69,6 @@ h1.headline{
 		width: 75%; 
 		height: 100%; 
 	}
-
 }
 
 @media (min-width: 60em) {
@@ -94,6 +88,7 @@ h1.headline{
 		height: 100%; 
 	}
 }
+/* Fim das manipulações necessárias para deixar o player responsivo*/
 
 /*Fim do componente Main-Content*/
 
