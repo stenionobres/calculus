@@ -92,7 +92,6 @@ h1.headline{
 
 /*Fim do componente Main-Content*/
 
-/*Componente botao-comprar*/
 .botaocomprar > .botao{
 	text-decoration: none;
 	position: relative;
@@ -113,6 +112,15 @@ h1.headline{
 .empolgado{
 	color: rgba(0,212,85,255);
 }
+
+@media (min-width: 17.87em) {
+	.botaocomprar > .botao{
+		font-size: 1.7em;
+		top: 10%;
+	}
+}
+
+/*continuação em 395x480
 
 
 
