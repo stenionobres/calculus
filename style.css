@@ -92,6 +92,7 @@ h1.headline{
 
 /*Fim do componente Main-Content*/
 
+/*Comportamento responsivo do botão de compra*/
 .botaocomprar > .botao{
 	text-decoration: none;
 	position: relative;
@@ -120,7 +121,67 @@ h1.headline{
 	}
 }
 
-/*continuação em 395x480
+@media (min-width: 21.3em) {
+	.botaocomprar > .botao{
+		font-size: 1.9em;
+		top: 5%;
+	}
+}
+
+@media (min-width: 23.3em) {
+	.botaocomprar > .botao{
+		font-size: 1.8em;
+		top: 25%;
+	}
+}
+
+@media (min-width: 30em) {
+	.botaocomprar > .botao{
+		font-size: 2em;
+		top: 25%;
+	}
+}
+
+@media (min-width: 34em) {
+	.botaocomprar > .botao{
+		font-size: 2.2em;
+		top: 20%;
+	}
+}
+
+@media (min-width: 38em) {
+	.botaocomprar > .botao{
+		font-size: 2.5em;
+		top: 18%;
+	}
+}
+
+@media (min-width: 45em) {
+	.botaocomprar > .botao{
+		font-size: 2.5em;
+		top: 18%;
+	}
+
+	.botaocomprar{
+		display: inline-block;
+		width: 75%;
+	}
+}
+
+@media (min-width: 60em) {
+	.botaocomprar > .botao{
+		font-size: 2.5em;
+		top: 18%;
+	}
+
+	.botaocomprar{
+		display: inline-block;
+		width: 50%;
+	}
+}
+
+
+/*Fim comportamento responsivo do botão de compra*/
 
 
 
