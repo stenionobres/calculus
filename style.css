@@ -16,7 +16,6 @@ body{
 	font-family: "Bebas Neue";
 }
 
-
 /* Componente Main-Content */
 .main-content > .chamadainicial, .headline{
 	font-weight: normal;
@@ -90,15 +89,17 @@ h1.headline{
 }
 /* Fim das manipulações necessárias para deixar o player responsivo*/
 
-/*Fim do componente Main-Content*/
-
 /*Comportamento responsivo do botão de compra*/
-.botaocomprar > .botao{
+.botaocomprar > .chamadadobotao{
 	position: relative;
-	bottom: 25%; /*20% foi o que funcionou no firefox*/
+	bottom: 25%;
 	color: white;
 	font-size: 1.7em;
 	font-weight: bold;
+}
+
+.botaocomprar > .formasdepagar{
+	width: 70%;
 }
 
 .botaocomprar{
@@ -115,43 +116,36 @@ h1.headline{
 	color: rgba(0,212,85,255);
 }
 
-/*@media (min-width: 17.87em) {
-	.botaocomprar > .botao{
-		font-size: 1.7em;
-		bottom: 25%;
-	}
-}*/
-
 @media (min-width: 21.3em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 1.9em;
 		bottom: 35%;
 	}
 }
 
 @media (min-width: 23.25em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 1.8em;
 		bottom: 12.5%;
 	}
 }
 
 @media (min-width: 30em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 2.2em;
 		bottom: 25%;
 	}
 }
 
 @media (min-width: 34em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 2.5em;
 		bottom: 32%;
 	}
 }
 
 @media (min-width: 38em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 2.7em;
 		bottom: 38%;
 	}
@@ -164,7 +158,7 @@ h1.headline{
 }
 
 @media (min-width: 60em) {
-	.botaocomprar > .botao{
+	.botaocomprar > .chamadadobotao{
 		font-size: 2.5em;
 	}
 
@@ -173,8 +167,8 @@ h1.headline{
 	}
 }
 
-
 /*Fim comportamento responsivo do botão de compra*/
 
+/*Fim do componente Main-Content*/
 
 
