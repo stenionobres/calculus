@@ -94,76 +94,71 @@ h1.headline{
 
 /*Comportamento responsivo do botão de compra*/
 .botaocomprar > .botao{
-	text-decoration: none;
 	position: relative;
-	top: 15%;
+	bottom: 25%; /*20% foi o que funcionou no firefox*/
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	font-weight: bold;
 }
 
 .botaocomprar{
 	font-family: "Yanone Kaffeesatz";
-	display: block;
+	text-decoration: none;
+	display: inline-block;
 	width: 100%;
 	height: 5em;
 	background: rgba(59,89,152,255);
+	margin-top: 0.5em;
 }
 
 .empolgado{
 	color: rgba(0,212,85,255);
 }
 
-@media (min-width: 17.87em) {
+/*@media (min-width: 17.87em) {
 	.botaocomprar > .botao{
 		font-size: 1.7em;
-		top: 10%;
+		bottom: 25%;
 	}
-}
+}*/
 
 @media (min-width: 21.3em) {
 	.botaocomprar > .botao{
 		font-size: 1.9em;
-		top: 5%;
+		bottom: 35%;
 	}
 }
 
-@media (min-width: 23.3em) {
+@media (min-width: 23.25em) {
 	.botaocomprar > .botao{
 		font-size: 1.8em;
-		top: 25%;
+		bottom: 12.5%;
 	}
 }
 
 @media (min-width: 30em) {
 	.botaocomprar > .botao{
-		font-size: 2em;
-		top: 25%;
+		font-size: 2.2em;
+		bottom: 25%;
 	}
 }
 
 @media (min-width: 34em) {
 	.botaocomprar > .botao{
-		font-size: 2.2em;
-		top: 20%;
+		font-size: 2.5em;
+		bottom: 32%;
 	}
 }
 
 @media (min-width: 38em) {
 	.botaocomprar > .botao{
-		font-size: 2.5em;
-		top: 18%;
+		font-size: 2.7em;
+		bottom: 38%;
 	}
 }
 
 @media (min-width: 45em) {
-	.botaocomprar > .botao{
-		font-size: 2.5em;
-		top: 18%;
-	}
-
 	.botaocomprar{
-		display: inline-block;
 		width: 75%;
 	}
 }
@@ -171,11 +166,9 @@ h1.headline{
 @media (min-width: 60em) {
 	.botaocomprar > .botao{
 		font-size: 2.5em;
-		top: 18%;
 	}
 
 	.botaocomprar{
-		display: inline-block;
 		width: 50%;
 	}
 }
