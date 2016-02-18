@@ -101,7 +101,6 @@ h1.headline{
 	color: white;
 	font-size: 1.7em;
 	font-weight: bold;
-	/*line-height: 270%;	*/
 }
 
 .botaocomprar > .formasdepagar{
@@ -116,10 +115,13 @@ h1.headline{
 	height: 5em;
 	background: rgba(59,89,152,255);
 	margin-top: 0.5em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .empolgado{
 	color: rgba(0,212,85,255);
+	font-size: 3em;
 }
 
 @media (min-width: 21.3em) {
@@ -132,26 +134,27 @@ h1.headline{
 	.botaocomprar > .chamadadobotao{
 		font-size: 1.8em;	
 	}
+
+	.empolgado{
+		font-size: inherit;
+	}
 }
 
 @media (min-width: 30em) {
 	.botaocomprar > .chamadadobotao{
 		font-size: 2.2em;
-		/*line-height: 200%;*/
 	}
 }
 
 @media (min-width: 34em) {
 	.botaocomprar > .chamadadobotao{
 		font-size: 2.5em;
-		/*line-height: 190%;*/
 	}
 }
 
 @media (min-width: 38em) {
 	.botaocomprar > .chamadadobotao{
 		font-size: 2.7em;
-		/*line-height: 170%;*/
 	}
 }
 
