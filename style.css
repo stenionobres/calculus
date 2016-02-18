@@ -125,14 +125,28 @@ h1.headline{
 }
 
 .estrutura-curso{
-	font-family: "Yanone Kaffeesatz";
+	font-family: "Bebas Neue";
 	text-align: center;
-	/*font-size: 1em;*/
+	background-color: rgba(247,247,247,255);
+	padding: 2em;
 }
 
 .estrutura-curso > .chamadacurso{
 	font-weight: normal;
+	font-size: 3em;
+	/*font-family: "Yanone Kaffeesatz"*/
 }
+
+.conteudo-aula > .tituloaula{
+	font-weight: normal;
+	font-size: 2em;
+}	
+
+.conteudo-aula > .descricaoaula{
+	font-family: roboto;
+	font-weight: 100;
+	text-align: left;
+}	
 
 @media (min-width: 21.3em) {
 	.botaocomprar > .chamadadobotao{
