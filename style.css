@@ -12,6 +12,11 @@
 	src: url(".fonts/YanoneKaffeesatz-Regular.otf");
 }
 
+@font-face{
+	font-family: "Roboto"
+	src: url(".fonts/Roboto-Regular.ttf");
+}
+
 body{
 	font-family: "Bebas Neue";
 }
@@ -143,7 +148,7 @@ h1.headline{
 }	
 
 .conteudo-aula > .descricaoaula{
-	font-family: roboto;
+	font-family: Roboto;
 	font-weight: 100;
 	text-align: left;
 }	
