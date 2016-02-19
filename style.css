@@ -134,30 +134,6 @@ h1.headline{
 	font-size: 3em;
 }
 
-.estrutura-curso{
-	font-family: "Bebas Neue";
-	text-align: center;
-	background-color: rgba(247,247,247,255);
-	padding: 2em;
-}
-
-.estrutura-curso > .chamadacurso{
-	font-weight: normal;
-	font-size: 3em;
-}
-
-.conteudo-aula > .tituloaula{
-	font-weight: normal;
-	font-size: 2em;
-}	
-
-.conteudo-aula > .descricaoaula{
-	font-family:  "Roboto Light", "Roboto";
-	font-weight: 100;
-	text-align: left;
-	font-size: 1.2em;
-}	
-
 @media (min-width: 21.3em) {
 	.botaocomprar > .chamadadobotao{
 		font-size: 1.9em;
@@ -212,4 +188,35 @@ h1.headline{
 
 /*Fim do componente Main-Content*/
 
+/*Comportamento estrutura do curso*/
+.estrutura-curso{
+	font-family: "Bebas Neue";
+	text-align: center;
+	background-color: rgba(247,247,247,255);
+	padding: 2em;
+}
+
+.estrutura-curso > .chamadacurso{
+	font-weight: normal;
+	font-size: 3em;
+}
+
+.conteudo-aula > .tituloaula{
+	font-weight: normal;
+	font-size: 2em;
+}	
+
+.conteudo-aula > .aulasvg{
+	position: relative;
+	min-width: 100px;
+	max-width: 110px;
+	width: 20%;
+}	
+
+.conteudo-aula > .descricaoaula{
+	font-family:  "Roboto Light", "Roboto";
+	font-weight: 100;
+	text-align: left;
+	font-size: 1.2em;
+}
 
