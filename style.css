@@ -17,6 +17,11 @@
 	src: url(".fonts/Roboto-Regular.ttf");
 }
 
+@font-face{
+	font-family: "Roboto Light"
+	src: url(".fonts/Roboto-Light.ttf");
+}
+
 body{
 	font-family: "Bebas Neue";
 }
@@ -148,9 +153,10 @@ h1.headline{
 }	
 
 .conteudo-aula > .descricaoaula{
-	font-family: Roboto;
+	font-family:  "Roboto Light", "Roboto";
 	font-weight: 100;
 	text-align: left;
+	font-size: 1.3em;
 }	
 
 @media (min-width: 21.3em) {
