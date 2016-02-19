@@ -144,7 +144,6 @@ h1.headline{
 .estrutura-curso > .chamadacurso{
 	font-weight: normal;
 	font-size: 3em;
-	/*font-family: "Yanone Kaffeesatz"*/
 }
 
 .conteudo-aula > .tituloaula{
@@ -156,7 +155,7 @@ h1.headline{
 	font-family:  "Roboto Light", "Roboto";
 	font-weight: 100;
 	text-align: left;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }	
 
 @media (min-width: 21.3em) {
