@@ -26,6 +26,10 @@ body{
 	font-family: "Bebas Neue";
 }
 
+.logo{
+	text-align: center;
+}
+
 /* Componente Main-Content */
 .main-content > .chamadainicial, .headline{
 	font-weight: normal;
@@ -165,6 +169,10 @@ h1.headline{
 @media (min-width: 38em) {
 	.botaocomprar > .chamadadobotao{
 		font-size: 2.7em;
+	}
+
+	.logo{
+		text-align: left;
 	}
 }
 
