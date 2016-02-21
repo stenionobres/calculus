@@ -209,12 +209,12 @@ h1.headline{
 	font-size: 3em;
 }
 
-.conteudo-aula > .tituloaula{
+.conteudo-aula > .titulo{
 	font-weight: normal;
 	font-size: 2em;
 }	
 
-.conteudo-aula > .aulasvg{
+.conteudo-aula > .imagemestrutura{
 	position: relative;
 	min-width: 100px;
 	max-width: 110px;
