@@ -237,6 +237,8 @@ h1.headline{
 
 	.conteudo-aula{
 		text-align: left;
+		width: 50%;
+		float: left;
 	}
 
 	.conteudo-aula > .descricaoaula{
