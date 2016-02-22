@@ -209,22 +209,47 @@ h1.headline{
 	font-size: 3em;
 }
 
-.conteudo-aula > .titulo{
-	font-weight: normal;
+.conteudo-aula > .titulo-aula {
 	font-size: 2em;
-}	
+	display: block; 
+}
 
-.conteudo-aula > .imagemestrutura{
-	position: relative;
-	min-width: 100px;
-	max-width: 110px;
-	width: 100%;
-}	
+.titulo{
+	font-weight: normal;
+	margin: 0;
+}
+
+.imagemestrutura{
+	max-width: 100px;
+	max-height: 100px;
+	width: 100%
+
+}
 
 .conteudo-aula > .descricaoaula{
 	font-family:  "Roboto Light", "Roboto";
 	font-weight: 100;
-	text-align: left;
+	text-align: center;
 	font-size: 1.2em;
+}
+
+@media (min-width: 34em){
+
+	.conteudo-aula{
+		text-align: left;
+	}
+
+	.conteudo-aula > .descricaoaula{
+		text-align: left;
+	}
+
+	.conteudo-aula > .titulo-aula {
+		display: inline-flex; 
+		text-align: left;
+	}
+
+	.titulo{
+		margin: auto;
+	}
 }
 
