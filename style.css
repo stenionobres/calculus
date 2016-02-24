@@ -207,6 +207,7 @@ h1.headline{
 .estrutura-curso > .chamadacurso{
 	font-weight: normal;
 	font-size: 3em;
+	width: 100%;
 }
 
 .conteudo-aula > .titulo-aula {
@@ -220,10 +221,8 @@ h1.headline{
 }
 
 .imagemestrutura{
-	max-width: 100px;
-	max-height: 100px;
-	width: 100%
-
+	width: 100px;
+	height: 100px;
 }
 
 .conteudo-aula > .descricaoaula{
@@ -233,16 +232,23 @@ h1.headline{
 	font-size: 1.2em;
 }
 
-@media (min-width: 34em){
+@media (min-width: 45em){
+	
+	.estrutura-curso{
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-content: center;
+	}
 
 	.conteudo-aula{
 		text-align: left;
 		width: 50%;
 		float: left;
-	}
-
-	.conteudo-aula > .descricaoaula{
-		text-align: left;
+		margin-top: 2em;
+		padding-right: 5%;
+		padding-left: 5%;
 	}
 
 	.conteudo-aula > .titulo-aula {
@@ -253,6 +259,13 @@ h1.headline{
 	.titulo{
 		margin: auto;
 	}
+
+	.conteudo-aula > .descricaoaula{
+		text-align: left;
+		width: 100%;
+	}
+
+	
 }
 
 /*Fim comportamento estrutura do curso*/
