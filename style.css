@@ -4,22 +4,23 @@
 
 @font-face{
 	font-family: "Bebas Neue"
-	src: url(".fonts/BebasNeueRegular.ttf");
+	src: url(".fonts/BebasNeueRegular.ttf") format('truetype');
+
 }
 
 @font-face{
 	font-family: "Yanone Kaffeesatz"
-	src: url(".fonts/YanoneKaffeesatz-Regular.otf");
+	src: url(".fonts/YanoneKaffeesatz-Regular.otf") format('opentype');
 }
 
 @font-face{
 	font-family: "Roboto"
-	src: url(".fonts/Roboto-Regular.ttf");
+	src: url(".fonts/Roboto-Regular.ttf") format('truetype');
 }
 
 @font-face{
 	font-family: "Roboto Light"
-	src: url(".fonts/Roboto-Light.ttf");
+	src: url(".fonts/Roboto-Light.ttf") format('truetype');
 }
 
 body{
