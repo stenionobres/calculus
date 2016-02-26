@@ -271,3 +271,19 @@ h1.headline{
 }
 
 /*Fim comportamento estrutura do curso*/
+
+/*Comportamento Garantia de 30 dias */
+
+.garantia-30dias{
+	text-align: center;
+}
+
+
+
+.garantia-30dias > .imagemgarantia{
+	max-width: 450px;
+	width: 80%;
+}
+
+
+/*Fim do comportamento Garantia de 30 dias */
