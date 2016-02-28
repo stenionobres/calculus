@@ -282,8 +282,35 @@ h1.headline{
 
 .garantia-30dias > .imagemgarantia{
 	max-width: 450px;
+	max-height: 392px;	
 	width: 80%;
 }
 
+@media (min-width: 45em){
+	.garantia-30dias{
+		/*text-align: left;*/
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-content: center;
+	}
+
+	.garantia-30dias > .imagemgarantia{
+		width: 40%;
+	}
+
+	.textogarantia{
+		width: 60%;
+		text-align: left;
+		padding-left: 1.5em;
+	}
+
+	.textogarantia > .titulogarantia{
+		font-weight: normal;
+		font-size: 4em;
+		margin: auto;
+	}
+}
 
 /*Fim do comportamento Garantia de 30 dias */
