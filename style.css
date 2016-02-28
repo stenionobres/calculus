@@ -339,3 +339,10 @@ h1.headline{
 }
 
 /*Fim do comportamento Garantia de 30 dias */
+
+/*Botão comprar sozinho depois de terminar, buscar as abstrações, esse aqui pode ficar junto com o main*/
+.efetuar-compra{
+	text-align: center;
+}
+
+/*Fim Botão comprar sozinho*/
