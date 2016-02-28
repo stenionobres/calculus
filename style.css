@@ -278,17 +278,47 @@ h1.headline{
 	text-align: center;
 }
 
-
-
 .garantia-30dias > .imagemgarantia{
 	max-width: 450px;
 	max-height: 392px;	
-	width: 80%;
+	width: 70%;
 }
 
-@media (min-width: 45em){
+.garantia-30dias > .texto-garantia{
+	font-size: 1.5em;
+}
+
+.texto-garantia > .titulogarantia{
+	font-weight: normal;
+	margin: auto;
+}
+
+.riscozero, .frasesatisfacao{
+	display: block;
+}
+
+@media (min-width: 23.25em){
+	.texto-garantia > .titulogarantia{
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 38em){
+
+	.garantia-30dias > .imagemgarantia{
+		/*max-width: 50%;*/
+	}
+/*	.texto-garantia > .titulogarantia{
+		font-size: 3em;
+	}*/
+
+	.riscozero{
+		display: inline;
+	}
+}
+
+@media (min-width: 60em){
 	.garantia-30dias{
-		/*text-align: left;*/
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
@@ -298,18 +328,13 @@ h1.headline{
 
 	.garantia-30dias > .imagemgarantia{
 		width: 40%;
+		max-width: auto;
 	}
 
-	.textogarantia{
+	.garantia-30dias > .texto-garantia{
 		width: 60%;
 		text-align: left;
 		padding-left: 1.5em;
-	}
-
-	.textogarantia > .titulogarantia{
-		font-weight: normal;
-		font-size: 4em;
-		margin: auto;
 	}
 }
 
