@@ -115,7 +115,7 @@ h1.headline{
 	width: 100%;
 	height: 100%;
 	color: white;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
@@ -140,15 +140,13 @@ h1.headline{
 	font-size: 3em;
 }
 
-@media (min-width: 21.3em) {
-	.botaocomprar > .chamadadobotao{
-		font-size: 1.9em;
-	}
-}
-
 @media (min-width: 23.25em) {
+	.botaocomprar{
+		height: 3.5em;
+	}
+
 	.botaocomprar > .chamadadobotao{
-		font-size: 1.8em;	
+		font-size: 1.5em;	
 	}
 
 	.empolgado{
@@ -157,20 +155,24 @@ h1.headline{
 }
 
 @media (min-width: 30em) {
+	.botaocomprar{
+		height: 5em;
+	}
+
 	.botaocomprar > .chamadadobotao{
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 }
 
 @media (min-width: 34em) {
 	.botaocomprar > .chamadadobotao{
-		font-size: 2.5em;
+		font-size: 2.249em;
 	}
 }
 
 @media (min-width: 38em) {
 	.botaocomprar > .chamadadobotao{
-		font-size: 2.7em;
+		font-size: 2.5em;
 	}
 
 	.logo{
@@ -182,11 +184,15 @@ h1.headline{
 	.botaocomprar{
 		width: 75%;
 	}
+
+	.botaocomprar > .chamadadobotao{
+		font-size: 2.19em;
+	}
 }
 
 @media (min-width: 60em) {
 	.botaocomprar > .chamadadobotao{
-		font-size: 2.5em;
+		font-size: 2.15em;
 	}
 
 	.botaocomprar{
@@ -304,14 +310,6 @@ h1.headline{
 }
 
 @media (min-width: 38em){
-
-	.garantia-30dias > .imagemgarantia{
-		/*max-width: 50%;*/
-	}
-/*	.texto-garantia > .titulogarantia{
-		font-size: 3em;
-	}*/
-
 	.riscozero{
 		display: inline;
 	}
