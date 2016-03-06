@@ -272,8 +272,6 @@ h1.headline{
 		text-align: left;
 		width: 100%;
 	}
-
-	
 }
 
 /*Fim comportamento estrutura do curso*/
@@ -282,6 +280,7 @@ h1.headline{
 
 .garantia-30dias{
 	text-align: center;
+	padding-top: 2em;
 }
 
 .garantia-30dias > .imagemgarantia{
@@ -344,3 +343,20 @@ h1.headline{
 }
 
 /*Fim Botão comprar sozinho*/
+
+/*Comportamento bônus */
+.bonus-total{
+	display: block;
+	text-align: center;
+	background-color: rgba(207,207,207,255);
+	margin-top: 2em;
+	padding: 1em;
+}
+
+
+@media (min-width: 60em){
+	.bonus-total{
+		margin-top: 10em;
+	}
+}
+/*Fim comportamento bônus*/
