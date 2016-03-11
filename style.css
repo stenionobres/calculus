@@ -347,7 +347,7 @@ h1.headline{
 
 /*Comportamento bônus */
 .bonus-total{
-	font-family: "Roboto";
+	font-family: "Bebas Neue";
 	display: block;
 	text-align: center;
 	background-color: rgba(207,207,207,255);
@@ -356,8 +356,16 @@ h1.headline{
 }
 
 .bonus-total > .chamadabonus{
-	font-family: "Bebas Neue";
 	width: 100%;
+} 
+
+.bonus-parcial > .descricaobonus{
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+
+.titulobonus{
+	margin: 0;
 } 
 
 
@@ -370,7 +378,7 @@ h1.headline{
 		align-content: center;
 	}
 
-	.bonus{
+	.bonus-parcial{
 		text-align: left;
 		width: 33%;
 		float: left;
