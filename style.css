@@ -359,15 +359,34 @@ h1.headline{
 	width: 100%;
 } 
 
+.bonus-total > .final{
+	font-size: 1.5em;
+	margin-top: 1.5em;
+}
+
+.bonus-parcial {
+	margin-bottom: 2em;
+}
+
 .bonus-parcial > .descricaobonus{
 	font-family: "Roboto";
 	font-weight: lighter;
 }
 
-.titulobonus{
-	margin: 0;
-} 
+.titulo-bonus {
+	display: inline-flex;
+	text-align: left;
+	align-items: center;
+}
 
+.titulo-bonus > .imagembonus{
+	width: 80px;
+	height: 80px;
+}
+
+.titulobonus{
+	margin: 0 0 0 0.3em;
+} 
 
 @media (min-width: 45em){
 	.bonus-total{
