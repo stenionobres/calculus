@@ -407,7 +407,6 @@ h1.headline{
 	}
 }
 
-
 @media (min-width: 60em){
 	.bonus-total{
 		margin-top: 10em;
@@ -415,3 +414,28 @@ h1.headline{
 }
 
 /*Fim comportamento bônus*/
+
+/*comportamento footer*/
+
+.opcoes-menu{
+	display: block;
+	height: 5em;
+	text-align: center;
+}
+
+.itemdomenu{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2.5em;
+}
+
+.opcoes-menu > .rodape{
+	list-style: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+	display: inline-flex;
+}
+
+/*fim comportamento footer*/
