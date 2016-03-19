@@ -549,3 +549,17 @@ h1.headline{
 	}
 }
 /*Final comportamento reportagen*/
+
+/*Termos de uso*/
+
+.termos-uso{
+	width: 70%;
+	font-family: "Yanone Kaffeesatz";
+	text-align: justify;
+}
+
+.titulotermos{
+	text-align: center;
+}
+
+/*Fim do termos de uso*/
