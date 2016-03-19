@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-/*Sala de Estudos
-taguasubsolo*/
-
 @font-face{
 	font-family: "Bebas Neue";
 	src: url("./fonts/BebasNeue Regular.otf") format('truetype');
@@ -236,8 +233,7 @@ h1.headline{
 .estrutura-curso{
 	font-family: "Bebas Neue";
 	text-align: center;
-	/*background-color: rgba(247,247,247,255);*/
-	background-color: rgba(207,207,207,255);
+	background-color: rgba(227,227,227,255);
 	padding: 2em;
 }
 
@@ -390,7 +386,7 @@ h1.headline{
 	font-family: "Bebas Neue";
 	display: block;
 	text-align: center;
-	background-color: rgba(207,207,207,255);
+	background-color: rgba(227,227,227,255);
 	margin-top: 2em;
 	padding: 1em;
 }
@@ -456,15 +452,6 @@ h1.headline{
 /*Fim comportamento bônus*/
 
 /*comportamento footer*/
-
-/*.opcoes-menu{
-	display: inline-flex;
-}*/
-
-/*.itemdomenu{
-	width: 100%;
-	float: left;
-}*/
 
 .opcoes-menu{
 	margin: 1em;
