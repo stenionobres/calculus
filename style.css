@@ -506,6 +506,8 @@ h1.headline{
 
 .depoimentos-bocaboca{
 	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 2em;
 }
 
 .reportagens{
@@ -517,4 +519,9 @@ h1.headline{
 	margin-top: 1em;
 }
 
+.-comenfase{
+	font-weight: bold;
+	color: rgba(59,89,152,255);
+	font-size: 2em;
+}
 /*Final comportamento reportagen*/
