@@ -480,6 +480,10 @@ h1.headline{
 	text-align: center;
 }
 
+.itemdomenu{
+	margin-top: 1em;
+}
+
 @media (min-width: 45em){
 
 	.opcoes-menu{
