@@ -512,7 +512,7 @@ h1.headline{
 
 .reportagens{
 	box-shadow:0 1px 2px #aaa;
-	max-width: 45%;
+	max-width: 90%;
 	width: 100%;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
@@ -523,5 +523,29 @@ h1.headline{
 	font-weight: bold;
 	color: rgba(59,89,152,255);
 	font-size: 2em;
+}
+
+@media (min-width: 45em){
+
+	.depoimentos-bocaboca{
+		text-align: center;
+		margin-top: 5em;
+		margin-bottom: 2em;
+	}
+
+	.reportagens{
+		box-shadow:0 1px 2px #aaa;
+		max-width: 45%;
+		width: 100%;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		margin-top: 1em;
+	}
+
+	.-comenfase{
+		font-weight: bold;
+		color: rgba(59,89,152,255);
+		font-size: 2em;
+	}
 }
 /*Final comportamento reportagen*/
