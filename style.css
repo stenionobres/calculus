@@ -468,6 +468,7 @@ h1.headline{
 
 .opcoes-menu{
 	margin: 1em;
+	font-weight: bold;
 }
 
 .opcoes-menu > .rodape{
