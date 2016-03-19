@@ -2,10 +2,25 @@
     box-sizing: border-box;
 }
 
+/*Sala de Estudos
+taguasubsolo*/
+
 @font-face{
 	font-family: "Bebas Neue";
-	src: url("./fonts/BebasNeueRegular.ttf") format('truetype');
+	src: url("./fonts/BebasNeue Regular.otf") format('truetype');
+	font-weight: normal;
+}
 
+@font-face{
+	font-family: "Bebas Neue";
+	src: url("./fonts/BebasNeue Light.otf") format('truetype');
+	font-weight: lighter;
+}
+
+@font-face{
+	font-family: "Bebas Neue";
+	src: url("./fonts/BebasNeue Bold.otf") format('truetype');
+	font-weight: bold;
 }
 
 @font-face{
@@ -14,13 +29,26 @@
 }
 
 @font-face{
+	font-family: "Yanone Kaffeesatz";
+	src: url("./fonts/YanoneKaffeesatz-Thin.otf") format('opentype');
+	font-weight: lighter;
+}
+
+@font-face{
+	font-family: "Yanone Kaffeesatz";
+	src: url("./fonts/YanoneKaffeesatz-Bold.otf") format('opentype');
+	font-weight: bold;
+}
+
+@font-face{
 	font-family: "Roboto";
 	src: url("./fonts/Roboto-Regular.ttf") format('truetype');
 }
 
 @font-face{
-	font-family: "Roboto Light";
+	font-family: "Roboto";
 	src: url("./fonts/Roboto-Light.ttf") format('truetype');
+	font-weight: lighter;
 }
 
 body{
@@ -46,7 +74,6 @@ body{
 }
 
 h1.headline{
-	font-weight: 200;
 	font-size: 2em;
 }
 
@@ -209,7 +236,8 @@ h1.headline{
 .estrutura-curso{
 	font-family: "Bebas Neue";
 	text-align: center;
-	background-color: rgba(247,247,247,255);
+	/*background-color: rgba(247,247,247,255);*/
+	background-color: rgba(207,207,207,255);
 	padding: 2em;
 }
 
@@ -235,8 +263,8 @@ h1.headline{
 }
 
 .conteudo-aula > .descricaoaula{
-	font-family:  "Roboto Light", "Roboto";
-	font-weight: 100;
+	font-family: "Roboto";
+	font-weight: lighter;
 	text-align: center;
 	font-size: 1.2em;
 }
@@ -299,6 +327,17 @@ h1.headline{
 	margin: auto;
 }
 
+.texto-garantia > .descricaogarantia{
+	margin: 0.5em;
+	font-family: "Yanone Kaffeesatz";
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+
+.texto-garantia > .descricaogarantia > .email{
+	color: blue;
+}
+
 .riscozero, .frasesatisfacao{
 	display: block;
 }
@@ -333,6 +372,7 @@ h1.headline{
 		width: 60%;
 		text-align: left;
 		padding-left: 1.5em;
+		margin-bottom: 1.5em;
 	}
 }
 
