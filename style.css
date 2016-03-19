@@ -501,3 +501,20 @@ h1.headline{
 }
 
 /*fim comportamento footer*/
+
+/*Comportamento reportagens*/
+
+.depoimentos-bocaboca{
+	text-align: center;
+}
+
+.reportagens{
+	box-shadow:0 1px 2px #aaa;
+	max-width: 45%;
+	width: 100%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 1em;
+}
+
+/*Final comportamento reportagen*/
