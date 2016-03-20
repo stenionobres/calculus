@@ -552,7 +552,7 @@ h1.headline{
 
 /*Termos de uso*/
 
-.termos-uso{
+.termos-uso, .politica-calculus{
 	width: 95%;
 	font-family: "Yanone Kaffeesatz";
 	text-align: justify;
@@ -562,12 +562,12 @@ h1.headline{
 	line-height: 2em;
 }
 
-.titulotermos{
+.titulotermos, .direitosreservados{
 	text-align: center;
 }
 
 @media (min-width: 45em){
-	.termos-uso{
+	.termos-uso, .politica-calculus{
 		padding-left: 5em;
 		padding-right: 5em;
 		font-size: 1.5em;
@@ -576,7 +576,7 @@ h1.headline{
 }	
 
 @media (min-width: 60em){
-	.termos-uso{
+	.termos-uso, .politica-calculus{
 		padding-left: 7.5em;
 		padding-right: 7.5em;
 	}
