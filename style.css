@@ -71,7 +71,7 @@ body{
 }
 
 h1.headline{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 /*Manipulações necessárias para deixar o player responsivo*/
@@ -104,18 +104,6 @@ h1.headline{
 		margin-left: 19.6%;
 	} 
 	
-	.video iframe, .video object, .video embed { 
-		position: absolute; 
-		/*top: 0; 
-		left: 0;*/
-		/*padding-bottom: 10%;*/
-
-/*		width: 100%;
-		height: 64.7%;*/
-		/*position: relative;
-		width: 420px; 
-		height: 236px; */
-	}
 }
 
 /*@media (min-width: 60em) {
