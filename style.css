@@ -72,6 +72,7 @@ body{
 
 h1.headline{
 	font-size: 1.5em;
+	margin: 0;
 }
 
 /*Manipulações necessárias para deixar o player responsivo*/
