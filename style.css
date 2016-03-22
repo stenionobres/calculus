@@ -77,7 +77,7 @@ h1.headline{
 /*Manipulações necessárias para deixar o player responsivo*/
 .video { 
 	position: relative; 
-	padding-bottom: 52.25%; 
+	padding-bottom: 56.25%; 
 	height: 0; 
 	overflow: hidden; 
 	max-width: 100%;
