@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 @font-face{
 	font-family: "Bebas Neue";
 	src: url("./fonts/BebasNeue Regular.otf") format('truetype');
@@ -59,6 +60,7 @@ body{
 /* Componente Main-Content */
 .main-content > .chamadainicial, .headline{
 	font-weight: normal;
+	font-size: 2em;
 }
 
 .main-content {
@@ -67,12 +69,12 @@ body{
 
 .chamadainicial{
 	color: red;
-	font-size: 1.3em;
+	/*font-size: 2em;*/
 	margin-top: 0;
 }
 
 h1.headline{
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	margin: 0;
 }
 
