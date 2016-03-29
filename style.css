@@ -392,6 +392,7 @@ h1.headline{
 
 .bonus-total > .chamadabonus{
 	width: 100%;
+	font-size: 2.3em;
 } 
 
 .bonus-total > .final{
@@ -412,6 +413,7 @@ h1.headline{
 	display: inline-flex;
 	text-align: left;
 	align-items: center;
+	font-size: 1.2em;
 }
 
 .titulo-bonus > .imagembonus{
