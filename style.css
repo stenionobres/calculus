@@ -399,6 +399,10 @@ h1.headline{
 	font-size: 2.3em;
 } 
 
+.chamadabonus > .preco{
+	color: red;
+}
+
 .bonus-total > .final{
 	font-size: 1.5em;
 	margin-top: 1.5em;
