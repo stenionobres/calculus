@@ -587,3 +587,22 @@ h1.headline{
 }	
 
 /*Fim do termos de uso*/
+
+/*Preço promocional */
+
+.preco-promocional{
+	font-family: 'Roboto';
+	font-weight: bolder;
+	font-size: 3em;
+	color: gray;
+}
+
+.preco-promocional > .chamadatemporaria{
+	color: black;
+}
+
+.preco-promocional > .preco{
+	color: red;
+}
+
+/*fim do preço promocional */
