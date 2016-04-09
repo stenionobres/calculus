@@ -594,7 +594,6 @@ h1.headline{
 	font-family: 'Roboto';
 	font-weight: bolder;
 	font-size: 3em;
-	/*color: gray;*/
 	color: #43545b;
 	line-height: 1em;
 
@@ -611,9 +610,8 @@ h1.headline{
 
 
 .preco-promocional > .precofinal{
-	color: red;
+	color: green;
 	font-size: 1.5em;
-	/*text-decoration: underline;*/
 }
 
 /*fim do preço promocional */
