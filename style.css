@@ -305,6 +305,8 @@ h1.headline{
 .garantia-30dias{
 	text-align: center;
 	padding-top: 2em;
+	background-color: rgba(227,227,227,255);
+
 }
 
 .garantia-30dias > .imagemgarantia{
@@ -335,6 +337,10 @@ h1.headline{
 
 .riscozero, .frasesatisfacao{
 	display: block;
+}
+
+.botao-avulso{
+	text-align: center;
 }
 
 @media (min-width: 23.25em){
@@ -385,8 +391,6 @@ h1.headline{
 	font-family: "Bebas Neue";
 	display: block;
 	text-align: center;
-	background-color: rgba(227,227,227,255);
-	margin-top: 2em;
 	padding: 1em;
 }
 
@@ -444,19 +448,15 @@ h1.headline{
 	}
 }
 
-@media (min-width: 60em){
-	.bonus-total{
-		margin-top: 10em;
-	}
-}
-
 /*Fim comportamento bônus*/
 
 /*comportamento footer*/
 
 .opcoes-menu{
 	margin: 1em;
+	margin-top: 5em;
 	font-weight: bold;
+	border-top: 1px solid rgba(227,227,227,255);
 }
 
 .opcoes-menu > .rodape{
@@ -473,10 +473,6 @@ h1.headline{
 }
 
 @media (min-width: 45em){
-
-	.opcoes-menu{
-		margin: 0;
-	}
 
 	.opcoes-menu > .rodape{
 		list-style: none;
