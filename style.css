@@ -600,7 +600,7 @@ h1.headline{
 }
 
 .preco-promocional > .chamadatemporaria{
-	color: black;
+	color: red;
 }
 
 .preco-promocional > .preconormal{
@@ -610,8 +610,15 @@ h1.headline{
 
 
 .preco-promocional > .precofinal{
-	color: green;
+	/*color: green;*/
+	color: rgba(0,212,85,255);
+	/*color: rgba(59,89,152,255);*/
 	font-size: 1.5em;
+}
+
+.teste{
+	color: rgba(59,89,152,255);
+	/*color: green;*/
 }
 
 /*fim do preço promocional */
