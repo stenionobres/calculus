@@ -613,12 +613,30 @@ h1.headline{
 	/*color: green;*/
 	color: rgba(0,212,85,255);
 	/*color: rgba(59,89,152,255);*/
-	font-size: 1.5em;
+	font-size: 0.8em;
 }
 
-.teste{
+.estrela{
 	color: rgba(59,89,152,255);
 	/*color: green;*/
+}
+
+@media (min-width: 23.25em) {
+	.preco-promocional > .precofinal{
+		font-size: 1.0em;
+	}
+}
+
+@media (min-width: 30em) {
+	.preco-promocional > .precofinal{
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 38em) {
+	.preco-promocional > .precofinal{
+		font-size: 1.5em;
+	}
 }
 
 /*fim do preço promocional */
